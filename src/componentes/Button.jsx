@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const Button = () => (
 	<div className='button-atras'>
-	<Link to="/"><i className="fa fa-arrow-left"/></Link>
+	<Link to="/portafolio"><i className="fa fa-arrow-left"/></Link>
 	</div>
 );
 
