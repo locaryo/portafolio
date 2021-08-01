@@ -39,11 +39,10 @@ const Sectionb = () => {
             que poseo y aprender nuevas cosas.
           </p>
           <br/> 
-           <p>Front-End: HTML5, CSS3, JS, utilizo el Framework UiKit ya que me parecio interesante y para probar otro FrameworkCSS que no 
-              fuera BootsTrap u otro de los mas utilizados.
+           <p>Front-End: HTML5, CSS3, JS.
           </p>
           <br/> 
-           <p>Back-End: PHP, MySql, Framework Codeigniter, Apache, PHPMyAdmin para facilitar la creacion de la BD y realizar las relaciones pertinentes entre las tablas.
+           <p>Back-End: PHP, MySql, Apache, PHPMyAdmin para facilitar la creacion de la BD y realizar las relaciones pertinentes entre las tablas.
           </p>
         </div>
         <div className='sliceLeft'>
@@ -56,11 +55,10 @@ const Sectionb = () => {
             que poseo y aprender nuevas cosas.
           </p>
           <br/> 
-           <p>Front-End: HTML5, CSS3, JS, utilizo el Framework UiKit ya que me parecio interesante y para probar otro FrameworkCSS que no 
-              fuera BootsTrap u otro de los mas utilizados.
+           <p>Front-End: HTML5, CSS3, JS.
           </p>
           <br/> 
-           <p>Back-End: PHP, MySql, Framework Codeigniter, Apache, PHPMyAdmin para facilitar la creacion de la BD y realizar las relaciones pertinentes entre las tablas.
+           <p>Back-End: PHP, MySql, Apache, PHPMyAdmin para facilitar la creacion de la BD y realizar las relaciones pertinentes entre las tablas.
           </p>
         </div>
       </div>
