@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cuerpo-home{
+  overflow-y: hidden;
+  color: #fff;
+  height: 100vh;
+  background: #2980b9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.background{
+  color: #fff;
+  height: auto;
+  background: #2980b9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cabecera-home{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: auto;
+}
+
+.cabecera-home div{
+  display: flex;
+  justify-content: center;
+}
+
+.cabecera-home div a{
+  text-decoration: none;
+  color: #fff;
+  margin-top: 20px;
+  padding: 17px;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 7px;
+  transition: .2s ease;
+}
+
+.cabecera-home div a:hover{
+  background-color: rgba(0,0,0,.6);
+  border-radius: 30px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 140px 0px;
+}
+
+.logo img{
+  height: 230px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuerpo-portafolio, .cuerpo-cv, .cuerpo-about{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.titulo, .titulo-cv, .titulo-about{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.titulo h1, .titulo-cv h1, .titulo-about h1{
+  font-weight: normal;
+  font-size: 43px;
+  font-weight: bold;
+}
+
+.section-portafolio, .section-cv, .section-about{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+.section-portafolio div, .section-cv div, .section-about div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-portafolio div h2, .section-cv h2, .section-about h2{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.section-portafolio div p, .section-cv p{
+  margin: 0px 100px;
+}
+
+.section-portafolio img, .section-cv img, .section-about img{
+  border-radius: 50%;
+}
+
+.ajustar-img-portafolio img{
+  height: 300px;
+  width: 300px;
+  box-shadow: 5px 10px 10px 3px rgba(0,0,0,.5);
+  transition: .5s ease;
+}
+
+.ajustar-img-portafolio img:hover{
+  height: 320px;
+  width: 320px;
+}
+
+.section-cv img{
+  height: 300px;
+  width: 300px;
+  box-shadow: -5px 8px 8px 3px rgba(0,0,0,.5);
+}
+
+.section-about{
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.about-center-circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle{
+  text-align: center;
+  background-color: rgba(0,0,0,.6);
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  color: #fff;
+  box-shadow: 5px 10px 10px 3px rgba(0,0,0,.5);
+}
+
+.circle p{
+  margin-bottom: 2px;
+}
+
+.info h3{
+  text-align: center;
+}
+
+.info p{
+  margin: 0px 80px;
+}
+
+.yo img{
+  width: 300px;
+  height: 300px;
+  box-shadow: 5px 10px 10px 3px rgba(0,0,0,.5);
+}
+
+.contacto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.contacto h1{
+  margin-right: 50px;
+}
+
+.contacto a{
+  color: #fff;
+}
+
+.button-atras{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-atras a{
+  text-decoration: none;
+  color: #fff;
+  padding: 17px 67px;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 7px;
+  transition: .5s ease;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.button-atras a:hover{
+  background-color: rgba(0,0,0,.4);
+}
