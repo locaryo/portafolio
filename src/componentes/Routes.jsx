@@ -9,10 +9,10 @@ import About from '../pages/About.js'
 const Routes = () => {
 	return(
 		<BrowserRouter>
-			<Route exact path="/" component={Welcome}/>
-			<Route exact path="/about" component={About}/>
-			<Route exact path="/portafolio" component={Portafolio}/>
-			<Route exact path="/skills" component={CV}/>
+			<Route exact path="/portafolio" component={Welcome}/>
+			<Route exact path="/portafolio/about" component={About}/>
+			<Route exact path="/portafolio/portfolio" component={Portafolio}/>
+			<Route exact path="/portafolio/skills" component={CV}/>
 		</BrowserRouter>
 	)
 }
