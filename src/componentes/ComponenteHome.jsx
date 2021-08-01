@@ -20,7 +20,7 @@ const ComponenteHome = () => {
 					<Link to="/portafolio/about" className='deslizar-animate'><i className="fa fa-user"/> About</Link>
 				</div>
 				<div>
-					<Link to="/portafolio/portafolio" className='deslizar-animate'><i className="fa fa-folder"/> Portafolio</Link>
+					<Link to="/portafolio/portfolio" className='deslizar-animate'><i className="fa fa-folder"/> Portafolio</Link>
 				</div>
 				<div>
 					<Link to="/portafolio/skills" className='deslizar-animate'><i className="fa fa-terminal"/> Skills</Link>
@@ -31,7 +31,7 @@ const ComponenteHome = () => {
 					<Link to="/portafolio/about" className='link-responsive'><i className="fa fa-user"/> About</Link>
 				</div>
 				<div>
-					<Link to="/portafolio/portafolio" className='link-responsive'><i className="fa fa-folder"/> Portafolio</Link>
+					<Link to="/portafolio/portfolio" className='link-responsive'><i className="fa fa-folder"/> Portafolio</Link>
 				</div>
 				<div>
 					<Link to="/portafolio/skills" className='link-responsive'><i className="fa fa-terminal"/> Skills</Link>
