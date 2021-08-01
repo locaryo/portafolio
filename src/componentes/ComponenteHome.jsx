@@ -17,24 +17,24 @@ const ComponenteHome = () => {
 		<div className='cuerpo-home'>
 			<div className='cabecera-home'>
 				<div>
-					<Link to="/about" className='deslizar-animate'><i className="fa fa-user"/> About</Link>
+					<Link to="/portafolio/about" className='deslizar-animate'><i className="fa fa-user"/> About</Link>
 				</div>
 				<div>
-					<Link to="/portafolio" className='deslizar-animate'><i className="fa fa-folder"/> Portafolio</Link>
+					<Link to="/portafolio/portafolio" className='deslizar-animate'><i className="fa fa-folder"/> Portafolio</Link>
 				</div>
 				<div>
-					<Link to="/skills" className='deslizar-animate'><i className="fa fa-terminal"/> Skills</Link>
+					<Link to="/portafolio/skills" className='deslizar-animate'><i className="fa fa-terminal"/> Skills</Link>
 				</div>
 			</div>
 			<div id="cabecera-home-responsive">
 				<div>
-					<Link to="/about" className='link-responsive'><i className="fa fa-user"/> About</Link>
+					<Link to="/portafolio/about" className='link-responsive'><i className="fa fa-user"/> About</Link>
 				</div>
 				<div>
-					<Link to="/portafolio" className='link-responsive'><i className="fa fa-folder"/> Portafolio</Link>
+					<Link to="/portafolio/portafolio" className='link-responsive'><i className="fa fa-folder"/> Portafolio</Link>
 				</div>
 				<div>
-					<Link to="/skills" className='link-responsive'><i className="fa fa-terminal"/> Skills</Link>
+					<Link to="/portafolio/skills" className='link-responsive'><i className="fa fa-terminal"/> Skills</Link>
 				</div>
 				<div>
 					<button href="#" className='icon-responsive' onClick={handleClickAbrir}><i className="fa fa-list"/></button>
