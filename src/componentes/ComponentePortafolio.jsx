@@ -28,7 +28,7 @@ const Sectionb = () => {
           </p>
         </div>
         <div className='sliceRigth ajustar-img-portafolio'>
-          <a href="https://github.com/locaryo/BeeApp.git"><img src={imgBeeApp} alt="BeeApp"/></a>
+          <a href="https://github.com/locaryo/BeeApp.git" target="_blank"><img src={imgBeeApp} alt="BeeApp"/></a>
         </div>
       </div>
       <div className='section-portafolio'>
@@ -78,7 +78,7 @@ const Sectionb = () => {
           </p>
         </div>
         <div className='sliceRigth ajustar-img-portafolio'>
-          <a href="https://github.com/locaryo/SistemaDVentas.git"><img src={img} alt="CatFramework"/></a>
+          <a href="https://github.com/locaryo/SistemaDVentas.git" target="_blank"><img src={img} alt="Sistema de ventas"/></a>
         </div>
       </div>
        <div className='section-portafolio'>
@@ -96,7 +96,7 @@ const Sectionb = () => {
           </p>
         </div>
         <div className='sliceLeft ajustar-img-portafolio'>
-          <a href="https://github.com/locaryo/CatFramework.git"><img src={imgCat} alt="CatFramework"/></a>
+          <a href="https://github.com/locaryo/CatFramework.git" target="_blank"><img src={imgCat} alt="CatFramework"/></a>
         </div>
         <div id="description-v">
           <h2>Framework</h2>

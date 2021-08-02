@@ -55,6 +55,7 @@ const ComponenteAbout = () => (
 		<div className='contacto'>
 			<h1>Contactame:</h1>
 			<a href="mailto:andrybracho5c@gmail.com" className="aumentar"><i className="fa fa-envelope"/></a>
+			<a href="https://www.linkedin.com/in/andry-bracho/" target="_blank" className="aumentar"><i className="fa fa-linkedin"/></a>
 		</div>
 
 	</div>

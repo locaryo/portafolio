@@ -186,11 +186,12 @@
 }
 
 .contacto h1{
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
 .contacto a{
   color: #fff;
+  margin-left: 25px;
 }
 
 .button-atras{
