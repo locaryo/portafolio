@@ -13,6 +13,9 @@ const ComponenteHome = () => {
     	}
 	}
 
+	const fecha = new Date();
+        const actual = fecha.getFullYear();
+
 	return(
 		<div className='cuerpo-home'>
 			<div className='cabecera-home'>
@@ -46,7 +49,7 @@ const ComponenteHome = () => {
 			<div className='footer'>
 			<div className='copy'>
 				<p><strong>
-					&copy; Copyright 2021 - ALBO
+					&copy; Copyright {actual} - ALBO
 				</strong></p>
 				<p><strong>
 					Para la creación de esta pagina se utilizo React.js 
